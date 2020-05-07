@@ -19,6 +19,7 @@ namespace FutureValue
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            /* this is a test */
             decimal monthlyInvestment = Convert.ToDecimal(txtMonthlyInvestment.Text);
             decimal yearlyInterestRate = Convert.ToDecimal(txtYearlyInterestRate.Text);
             while (yearlyInterestRate < 0 || yearlyInterestRate >= 20)
